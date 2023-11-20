@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lexml version="2.0" creation-date="2023-11-20T13:48:15.039Z">
+  <resources>
+    <role id="r0" name="Video" color="#c70d26"/>
+    <role id="r1" name="Audio" color="#037312"/>
+    <role id="r2" name="Lights" color="#a57d17"/>
+    <role id="r3" name="SFX" color="#8200eb"/>
+    <role id="r4" name="Staging" color="#0d3bd1"/>
+    <role id="r5" name="Props" color="#d4176b"/>
+  </resources>
+  <scene name="Erika Norwich" artist="My Al" number="1" status="0" duration="200000" regen-offset="3600000" start-offset="0">
+    <chase source="1">
+      <position ltc="10:00:00:00" start="0"/>
+    </chase>
+    <preferences>
+      <cue-numbering mode="1" start="000" beginning="10" exclude-int-sources="true"/>
+    </preferences>
+    <spine>
+      <track name="Markers" type="markers" assignment="-1" visible="true" inhibited="false" collapsed="false">
+        <cue id="c0" desc="" type="1" start="-3000" action="7" children=""/>
+        <cue id="c1" desc="" type="1" start="200000" action="10" children=""/>
+        <cue id="c2" desc="" type="1" start="201000" action="2" children=""/>
+        <cue id="c3" desc="" type="1" start="202000" action="4" children=""/>
+      </track>
+      <track name="Arr" type="time" assignment="-1" visible="true" inhibited="false" collapsed="false">
+      </track>
+      <track name="Tekst" type="lyrics" assignment="-1" visible="true" inhibited="false" collapsed="false"/>
+      <track name="Main" type="switcher" assignment="1" visible="true" inhibited="false" collapsed="false">
+        <cue id="c24" desc="" tags="" notes="" start="-25000" value="1" preset="1" children="" duration="40" trans-type="1" director-notes="" operator-notes="" trans-duration="0" operator-notes-color="red"/>
+        <cue id="c25" desc="" tags="" notes="" start="-24960" value="2" preset="1" children="" duration="40" trans-type="1" director-notes="" operator-notes="" trans-duration="0" operator-notes-color="red"/>
+        <cue id="c26" desc="" tags="" notes="" start="-24920" value="3" preset="1" children="" duration="40" trans-type="1" director-notes="" operator-notes="" trans-duration="0" operator-notes-color="red"/>
+        <cue id="c27" desc="" tags="" notes="" start="-24880" value="4" preset="1" children="" duration="40" trans-type="1" director-notes="" operator-notes="" trans-duration="0" operator-notes-color="red"/>
+        <cue id="c28" desc="" tags="" notes="" start="-24840" value="5" preset="1" children="" duration="40" trans-type="1" director-notes="" operator-notes="" trans-duration="0" operator-notes-color="red"/>
+        <cue id="c29" desc="" tags="" notes="" start="-24800" value="6" preset="1" children="" duration="40" trans-type="1" director-notes="" operator-notes="" trans-duration="0" operator-notes-color="red"/>
+        <cue id="c30" desc="" tags="" notes="" start="-24760" value="7" preset="1" children="" duration="40" trans-type="1" director-notes="" operator-notes="" trans-duration="0" operator-notes-color="red"/>
+        <cue id="c31" desc="" tags="" notes="" start="-24720" value="8" preset="1" children="" duration="40" trans-type="1" director-notes="" operator-notes="" trans-duration="0" operator-notes-color="red"/>
+        <cue id="c32" desc="" tags="" notes="" start="-24680" value="9" preset="1" children="" duration="40" trans-type="1" director-notes="" operator-notes="" trans-duration="0" operator-notes-color="red"/>
+        <cue id="c33" desc="" tags="" notes="" start="-24640" value="10" preset="1" children="" duration="40" trans-type="1" director-notes="" operator-notes="" trans-duration="0" operator-notes-color="red"/>
+        <cue id="c34" desc="" tags="" notes="" start="-24600" value="11" children="" duration="40" trans-type="1" director-notes="" operator-notes="" operator-notes-color="red"/>
+        <cue id="c35" desc="" tags="" notes="" start="-24560" value="12" children="" duration="40" trans-type="1" director-notes="" operator-notes="" operator-notes-color="red"/>
+        <cue id="c36" desc="" tags="" notes="" start="-24520" value="13" preset="1" children="" duration="40" trans-type="1" director-notes="" operator-notes="" operator-notes-color="red"/>
+        <cue id="c37" desc="" tags="" notes="" start="-24480" value="14" preset="1" children="" duration="120" trans-type="1" director-notes="" operator-notes="" operator-notes-color="red"/>
+        <cue id="c38" desc="" tags="" notes="" start="-24360" preset="0" children="" duration="224360" trans-type="1" director-notes="" operator-notes="" trans-duration="0" operator-notes-color="red"/>
+      </track>
+      <track name="1: Randi" type="comment" assignment="-1" visible="true" inhibited="false" collapsed="false" role="0"/>
+      <track name="2: Scenecrew" type="comment" assignment="-1" visible="true" inhibited="false" collapsed="false" role="0"/>
+      <track name="Notater" type="comment" assignment="-1" visible="true" inhibited="false" collapsed="false" role="0"/>
+      <track name="CCU Control" type="camera" assignment="-1" visible="true" inhibited="false" collapsed="false"/>
+      <track name="Overlay 1" type="device" assignment="201" visible="true" inhibited="false" collapsed="false"/>
+      <track name="" type="switcherFX" assignment="-1" visible="true" inhibited="false" collapsed="false"/>
+      <track name="Overlay 2" type="device" assignment="202" visible="true" inhibited="false" collapsed="false"/>
+      <track name="Effects 2" type="switcherFX" assignment="-1" visible="true" inhibited="false" collapsed="false"/>
+      <track name="" type="device" assignment="203" visible="true" inhibited="false" collapsed="false"/>
+    </spine>
+  </scene>
+</lexml>
